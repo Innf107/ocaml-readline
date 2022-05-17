@@ -1,0 +1,9 @@
+(library
+ (name readline)
+
+ (foreign_stubs
+  (language c)
+  (names readline_stub)
+ )
+ (flags :standard -cclib -lreadline)
+)
